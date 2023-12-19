@@ -1,0 +1,48 @@
+/****font-face included*****/
+
+/*typography Strat*/
+h1                                          { font-size: 70px; line-height: 78px; font-weight: bold;  }
+h2                                          { font-size: 60px; line-height: 72px;  }
+h5                                          { font-size: 22px; line-height: 28px; font-weight:bold;  }
+h6                                          { font-size: 14px; line-height: 21.6px; font-weight:bold;}
+p                                           { font-size: 15px;  line-height: 27px; }
+p.big-text                                  { font-size: 22px;  line-height: 39.6px;font-weight: 400; }
+a                                           { text-decoration: none; outline: none; font-size: 15px; line-height: 22px; }
+/*typography End*/
+/*****common section start****/
+*                                           { margin: 0px; padding: 0px; box-sizing: border-box; }
+body                                        { font-size:15px; line-height:20px; }
+img                                         { border: 0px;}
+ul,ol                                       { list-style: none;}
+a:hover, a:active,a:focus                   { text-decoration: none;}
+a:focus, a:active, a:visited                { outline: none; border: 0px;}
+.text-none                                  { text-transform: none !important; }
+button.navbar-toggler                       { outline:0;}
+.common-space                               { padding:80px 0;}
+.theme-btn                                  { padding:5px 10px; display: inline-block; background-color: #41228e; border-radius: 5px; border: 1px solid transparent; color:#fff; }
+.theme-btn:hover,.theme-btn:focus,.theme-btn:active { background-color: #542cb7; color:#fff; }
+/*****common section End****/
+/***Header-section Css Start****/
+.header-section                             { padding:40px 130px; background-color: transparent; position: fixed; width:100%; top:0; z-index: 150; transition: all 0.5s ease-in-out;}
+.header-style                               { padding:15px 100px; background-color: #41228e; }
+.header-section .navbar                     { padding:20px 0; }
+.navbar-toggler                             { padding:8px 15px; border: 1px solid rgba(255,255,255,.1); }
+.navbar-toggler-icon                        { height:auto; }
+/******Responsive Css Sstart*/
+@media(min-width:992px) and (max-width:1199px)
+{
+   
+}
+@media(min-width:768px) and (max-width:991px)/* for tablet */
+{
+    
+}
+@media(max-width:767px)/* for mobile */
+{
+   
+}
+@media(min-width:576px) and (max-width:767px)/* for fablet */
+{
+
+}
+/****Responsive Css End******/
