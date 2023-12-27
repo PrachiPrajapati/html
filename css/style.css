@@ -1,3 +1,4 @@
+
 /****font-face included*****/
 
 /*typography Strat*/
@@ -46,3 +47,10 @@ button.navbar-toggler                       { outline:0;}
 
 }
 /****Responsive Css End******/
+/* Animations */
+@keyframes borderbottom {
+    0% {  transform: scaleX(1); transform-origin: right; }
+    50% { transform: scaleX(0);  transform-origin: right; }
+    50.01% { transform: scaleX(0);  transform-origin: left; }
+    100% {  transform: scaleX(1); transform-origin: left; }
+}
