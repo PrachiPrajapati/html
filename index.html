@@ -53,5 +53,21 @@
     <script src="js/slick.js" type="text/javascript"> </script>
     <!--********fancy-box js included**********-->
     <script src="js/jquery.fancybox.min.js" type="text/javascript"> </script>
-    
+        <script>
+            //js for hamburger
+              $(document).ready(function () {
+                jQuery(window).on("scroll", function() {
+                    if(jQuery(window).scrollTop() > 10) {
+                        jQuery(".site-header").addClass("header-style");
+                    } else {
+                      jQuery(".site-header").removeClass("header-style");
+                    }
+                });	
+                  $(".hamburger").click(function () {
+                    $(this).toggleClass("is-active");
+                    $(".header-section").toggleClass("active-menu");
+                    $("body").toggleClass("open-menu");
+                  });
+                });
+  </script>
 </body>
